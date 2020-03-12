@@ -76,10 +76,10 @@ public class NewTest {
 
 
 
-        driver.get("https://the-internet.herokuapp.com/context_menu");
+       /* driver.get("https://the-internet.herokuapp.com/context_menu");
         WebElement element = new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h4['id=hot-spot']")));
         Actions builder = new Actions(driver);
-        builder.contextClick(element).build().perform();
+        builder.contextClick(element).build().perform();*/
 
     }
 }
