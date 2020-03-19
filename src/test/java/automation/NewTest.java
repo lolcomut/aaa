@@ -1,6 +1,6 @@
 package automation;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -80,6 +80,8 @@ public class NewTest {
         WebElement element = new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h4['id=hot-spot']")));
         Actions builder = new Actions(driver);
         builder.contextClick(element).build().perform();*/
+
+
 
     }
 }
